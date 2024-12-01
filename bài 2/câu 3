@@ -1,0 +1,12 @@
+print("sinh vien: Vo Cong Duc")
+print("MSSV:235752021610102")
+
+n=int(input("Enter a number---->"))
+
+if n 20:
+
+print ("EVEN Number"):
+
+else:
+
+print ("ODD Numbe
