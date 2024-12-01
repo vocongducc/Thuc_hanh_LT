@@ -1,0 +1,24 @@
+print(" sinh vien: VO CONG DUC")
+print ("Ma so SV: 235752021610102")
+
+import re 
+value = []
+items [x.strip() for x in input ("Nhập mật khẩu:").split(',')]
+
+for p in items:
+
+if len(p) < 6 or len (p) > 12: continue
+
+if not re.search("[a-z]", p): continue
+
+if not re.search("[0-9]", p): continue
+
+if not re.search("[A-Z]", p): continue
+
+if not re.search("[$#@]", p): continue
+
+if re.search("\s", p): continue
+
+value.append (p)
+
+print(",".join(value))​13:31/-strong/-heart:>:o:-((:-hĐã gửi Xem trước khi gửiThả Files vào đây để xem lại trước khi gửi
