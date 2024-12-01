@@ -1,0 +1,7 @@
+print(" sinh vien: VO CONG DUC")
+print ("Ma so SV: 235752021610102")
+
+def sum(a, b):
+ return at b
+c = sum(4, 5);
+print("Tong cua 4 va 5 = " + str(c))
