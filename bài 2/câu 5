@@ -1,0 +1,6 @@
+print(" sinh vien: VO CONG DUC")
+print ("Ma so SV: 235752021610102")
+n= int(input( “Enter A Number--->”));
+while n>=0:
+        print (n);
+        n=n-1;
