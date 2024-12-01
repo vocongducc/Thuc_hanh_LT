@@ -1,0 +1,14 @@
+print("sinh vien: Vo Cong Duc")
+print("MSSV:235752021610102")
+
+from tkinter import * 
+window = Tk() 
+window.title("Welcome to LikeGeeks app") 
+window.geometry('350x200') 
+lbl = Label(window, text="Hello,Chào mừng bạn đến với cửa sổ đồ họa!")
+lbl.grid(column=0, row=0)
+def clicked(): 
+    lbl.configure(text="Button was clicked !!") 
+btn = Button(window, text="Click Me", command=clicked, bg="blue", fg="white")
+btn.grid(column=1, row=0) 
+window.mainloop()
