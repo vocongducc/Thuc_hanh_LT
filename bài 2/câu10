@@ -1,0 +1,8 @@
+print(" sinh vien: VO CONG DUC")
+print ("Ma so SV: 235752021610102")
+
+a =“hi i am Python programmer”
+b=a.split()
+print (b) 
+c="". join(b) 
+print(c)
