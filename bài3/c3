@@ -1,0 +1,8 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+lef say hello():
+
+a = "Hello" 
+print(a)
+say_hello()
