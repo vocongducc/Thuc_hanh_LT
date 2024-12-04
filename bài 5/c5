@@ -1,0 +1,35 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+#main_script.py
+
+import mymodule #
+
+Import module mymodule
+
+* Nhập vào số lượng phần tử trong danh sách nint (input("Nhập số lượng phần tử trong danh sách: "))
+
+* Nhập các phần tử trong danh sách
+
+arr []
+
+for i in range(n):
+
+num = int(input (f"Nhập phần tử thứ (1 + 1}: "))
+
+arr.append (num)
+
+# In ra danh sách ban đầu
+
+print("\nDanh sách ban đầu:")
+
+print (arr)
+
+# Sắp xếp danh sách
+
+sorted_arr= mymodule.sort_list (arr)
+
+# Tìm phần tử lớn nhất và nhỏ nhất
+
+max_element = mymodule.find_max(arr) 
+min_element = mymodule.find_min(arr
