@@ -1,0 +1,6 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+ S = input('Nhap chuoi: ')
+for ch in s:
+  print (ch)
