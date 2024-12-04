@@ -1,0 +1,17 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def main():
+array = list(range(12,39))
+
+# In màng ban đầu
+print ("Mảng được tạo:")
+
+print (array)
+
+* Đảo ngược mảng
+reversed_array = array[::-1]
+
+* In mảng đảo ngược
+print ("Mảng đảo ngược:") 
+print (reversed_array)
