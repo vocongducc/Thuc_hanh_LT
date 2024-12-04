@@ -1,0 +1,6 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+ original_list = [1, 2, 3, 4, 5]  
+  new_list = original list[1-1]
+print("Danh sách mới là:", new_list)
