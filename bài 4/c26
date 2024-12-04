@@ -1,0 +1,35 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+ balance = 0
+
+print("Nhập nhật ký giao dịch (D để nạp tiền, W để rút tiền). Ví dụ: D 200 hoặc print("Nhập 'exit' để kết thúc và xem số dư tài khoản cuối cùng.")
+
+while True:
+
+transaction = input("Nhập giao dịch: ")
+
+if transaction.lower()== break "exit":
+
+try:
+
+action, amount = transaction.split() 
+  amount= int (amount)
+
+if action == 'D':
+
+balance += amount
+
+elif action == 'W':
+
+balance amount
+
+else:
+
+print("Giao dịch không hợp lệ. Vui lòng nhập lại.")
+
+except ValueError:
+
+print("Định dạng giao dịch không hợp lệ. Vui lòng nhập lại.")
+
+print (f"số dư tài khoản cuối cùng là: (balance)")​
