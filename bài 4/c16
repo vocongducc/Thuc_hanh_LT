@@ -1,0 +1,7 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+input_string = input("Nhập chuỗi các số nhị phân tách nhau bởi dấu phẩy: ")
+
+binary_numbers = input_string.split(',')
+
+print("Các giá trị số nhị phân đã nhập là:") for binary in binary_numbers: print (binary)
