@@ -1,0 +1,12 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def count_characters_and_digits (sentence): letter count = 0 digit_count = 0
+
+for char in sentence: if char.isalpha(): letter count += 1 elif char.isdigit(): digit_count1
+
+print (f" số chữ cái là: (letter_count}") print (f"Số chữ số là: (digit count)")
+
+sentence = input ("Nhập câu: ")
+
+count characters and digits (sentence)
