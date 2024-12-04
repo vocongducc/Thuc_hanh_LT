@@ -1,0 +1,10 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+name = input('Nhập họ và tên: ').split()
+ho = name [0]
+ten = name [1]
+dem = name [2]
+print('Ho:', ho)
+print('Ten:', ten)
+print('Dem:', dem)
