@@ -1,0 +1,14 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def fibonacci_less_than_n(n):
+fib list = []
+a, b 0, 1
+while a n:
+fib_list.append (a)
+a, bb, a + b return fib list 
+n = int(input("Nhập số nguyên dương n: ")) 
+fib_list = fibonacci_less_than_n(n) 
+  print (f"Các số Fibonacci nhỏ hơn (n) là:") 
+  for num in fib list:
+print(num)
