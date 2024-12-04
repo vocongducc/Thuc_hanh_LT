@@ -1,0 +1,8 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+input_string = input("Nhập một chuỗi từ tiếng Anh tách nhau bởi dấu cách: ") 
+words = input_string.split()
+words sorted sorted (words) print("Các từ theo thứ tự từ điển là:")
+for word in words sorted:
+print (word)
