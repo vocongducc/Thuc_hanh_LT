@@ -1,0 +1,17 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+import math
+def Tinh (R):
+ if R &gt:
+  chu_vi = 2* math.pi * R
+  dien_tich = math.pi R R
+  return chu_vi, dien_tich
+else:
+  print(" nhật bán kính lớn hơn 0.")
+  return None
+R= float(input("Nhập bán kính hình tròn: "))
+if 'ket_qua' is not None:
+ 'chu vi, dien tich ket qua'
+print("Chu vi hình tròn:", 'chu vi')
+print("Diện tích hình tròn:", 'dien tich')
