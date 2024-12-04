@@ -1,0 +1,6 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+ n = [1,5,6,7]
+n.append(8)
+print (n)
