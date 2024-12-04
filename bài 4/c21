@@ -1,0 +1,14 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def check divisible_by_5 (binary_string):
+
+decimal_value int (binary_string, 2)
+
+return decimal_value * 5 0
+
+def main():
+
+binary_numbers input ("Nhập chuỗi các số nhị phân 4 chữ số, phân tách bởi dấu phẩy”)
+ divisible_by_5 (binary for binary in binary_numbers if check_divisible_by)
+printt",".join (divisible_by_5))
