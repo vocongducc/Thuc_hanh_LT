@@ -1,0 +1,18 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def is_prime(num):
+
+if num <= 1:
+
+return False
+
+for i in range(2, int(num**0.5) + 1): if num % i == 0:
+
+return False
+
+return True
+
+prime_list = (x for x in range(2, 1000000) if is_prime (x)] P = tuple (prime list) print("Tuple P gồm các số nguyên tố nhỏ hơn 1 triệu:")
+
+print (P)
