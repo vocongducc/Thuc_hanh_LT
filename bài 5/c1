@@ -1,0 +1,42 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def square(n): return nn
+
+def cube (n): return nnn
+
+def average (values): 
+nvals = len (values)
+
+sum 0.0
+
+for y in values:
+
+return float (sum) / nvals
+
+Lum+y
+
+##My script using the math module-##
+
+import mymath Note no .py
+
+values [2,4,6,8,10]
+
+print('Squares:')
+
+for v in values:
+
+print (mymath.square(v))
+
+print 'Cubes:'
+
+for v in values:
+
+print (mymath.cube(v))
+
+print('Average:'+ str(mymath.average (values)))
+
+
+import mymath as mt 
+print(mt.square (2))
+print(mt.square (3))
