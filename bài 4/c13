@@ -1,0 +1,8 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+n = [1, 2, 3, 4, 5]
+if 1 in n:
+print("Có 1 trong list.")
+else:
+print("Không có 1 trong list.")
