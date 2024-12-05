@@ -1,0 +1,18 @@
+print('sinh vien: Vo Cong Duc')
+print('MSSV:235752021610102')
+  import numpy as np
+
+# Dữ liệu đầu vào
+students_details ('James', 5, 48.5),
+                 (Nail', 6, 52.5),
+                 ('Paul', 5, 42.1), 
+                 ('Pit', 5, 40.11)],
+dtype=[('Name', 'U10'), ('Class', '14'), ('Height', 'f4')])
+
+# Sắp xếp theo 'Class' và 'Height' (nếu 'Class' bằng nhau)
+
+sorted_data = np.sort(data, order =['Class', 'Height'])
+
+# In kết quả đã sắp xếp
+
+print (sorted_data)
