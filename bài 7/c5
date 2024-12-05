@@ -1,0 +1,12 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def file_read (fname):
+from itertools import islice 
+with open (fname, "w") as myfile:
+myfile.write("Duc mac lam\n")
+  myfile.write("Dung ru re")
+
+txt = open (fname)
+print(txt.read())
+file_read('abc.txt')
