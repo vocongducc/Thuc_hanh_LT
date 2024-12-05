@@ -1,0 +1,28 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+#main.py
+
+from sort_module import bubbleSort # Import hàm từ module
+
+def main():
+
+* Nhập số lượng phần tử của da
+
+n=int(input ("Nhập số lượng phần tử trong danh sách: "))
+
+* Nhập danh sách 
+nlist == []
+
+print (f"Nhập (n) phần tử cho danh sách:")
+
+for i in range(n):
+element int (input (f"Nhập phần từ thứ (1 + 1): ")) 
+nlist.append(element)
+
+* Sắp xếp danh sách bằng thuật toán bubble sort sorted_list bubbleSort (nlist)
+
+* Hiển thị kết quả sau khi sắp xếp 
+print("Danh sách sau khi sắp xếp:", sorted list)
+if __ name__ " main ".
+  main()
