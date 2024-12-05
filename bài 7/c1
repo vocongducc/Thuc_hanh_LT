@@ -1,0 +1,9 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+with open('D:/a.txt', 'r') as input_file: 
+for line in input _ file:
+
+line  = line.strip() 
+reversed line line[::-1]
+print (reversed line)
