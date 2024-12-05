@@ -1,0 +1,22 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def read_whole_file(file_name):
+
+try:
+
+with open (file_name, 'r', encoding='utf-8')
+content = file.read()
+
+print (content)
+
+except FileNotFoundError:
+
+print (f"File {file_name) không tồn tại.")
+
+except Exception as e:
+print (f"Đã xảy ra lỗi: (e)")
+
+file_name input Nhập tên file: ")
+
+read whole file (file name)
