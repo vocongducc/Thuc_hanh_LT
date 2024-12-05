@@ -1,0 +1,38 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+#main.py
+
+from search_module import binary_search & Import hàm từ module
+
+def main():
+
+# Nhập số lượng phần tử của danh sách
+
+n = int (input("Nhập số lượng phần tử trong danh sách: "))
+
+* Nhập danh sách (lưu ý phải sắp xếp danh sách trước khi tìm kiếm nhị phân) lst = [] 
+print (f"Nhập (n) phần tử cho danh sách (danh sách phải đã sắp xếp):")
+
+for i in range(n): 
+element = int (input (f"Nhập phần tử thứ (1+1): ")) 
+lst.append(element)
+
++ Kiểm tra nêu danh sách chưa được sắp xếp, yêu cầu người dùng nhập lại lst.sort() # Tự động sắp xếp lại danh sách nếu cần
+
+print("Danh sách đã sắp xếp:", 1st)
+
+# Nhập phần tử cần tìm kiếm
+
+value = int (input ("Nhập phần tử cần tìm kiếm: "))
+
+* Tìm kiếm phần tử trong danh sách
+
+if binary_search(lst, value):
+print("Phần tử (value) có trong danh sách.")
+
+else: 
+print("Phần tử (value) không có trong danh sách.")
+
+if_name_ == "__main__": 
+main()
