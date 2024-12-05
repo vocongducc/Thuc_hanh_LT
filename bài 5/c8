@@ -1,0 +1,40 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+
+#main.py
+
+from search module import Sequential_Search
+
+def main():
+
+* Nhập số phần tử của danh sách
+
+n = int (input("Nhập số lượng phần tử trong danh sách: "))
+
+* Nhập danh sách
+
+dlist==[]
+
+for i in range(n):
+ element = int (input (1 Nhập phần tử thủ (1 + 1): "))
+  dlist.append(element)
+
+* Nhập phần tử cần tìm kiếm
+item = int(input ("Nhập phần tử cần tìm kiếm: "))
+
+* Tìm kiếm phần tử trong danh sách
+
+found, index = Sequential_Search (dlist, item)
+
+* Hiển thị kết quả
+
+if found:
+print("Phần tử (item) tìm thấy tại vị trì (index).")
+
+else:
+
+print("Phần tử (item)không có trong danh sách.")
+
+if_name__=="main":
+  main()
