@@ -1,0 +1,14 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+class Circle (object):
+
+def init (self, r): self.radius = r
+
+def area(self):
+
+return self.radius**2*3.14
+
+aCircle = Circle (2)
+
+print (aCircle.area())
