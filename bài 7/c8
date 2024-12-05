@@ -1,0 +1,14 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def write_list_to_file(file_name, data_list):
+
+try:
+
+with open(file_name, 'w', encoding='utf-8') as file:
+
+for item in data_list:
+
+file.write(item + '\n')
+
+print (f"Danh sách đã được ghi vào têp (file_name)' thành công."
