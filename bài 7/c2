@@ -1,0 +1,15 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+
+k-open('D:/a.txt', 'r') 
+  char, wc, lc=0,0,0
+for line in k:
+fork in range(0, len (line)):
+char +=1
+if (line [k]==' '):
+wc+=1
+if (line [k]=='\n'):
+wc,lc wc+1,10+1
+
+print("so ky tu la:ad\nSo luong tu la
