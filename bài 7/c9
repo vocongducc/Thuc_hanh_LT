@@ -1,0 +1,8 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+import shutil
+def coppy_file(Duc_file, Ban_file):
+shutil.copy (Duc_file, Ban_file)
+  print (f"đã sao chép từ (Duc file) sang (Ban_file).") 
+coppy_file('Duc.txt', 'Ban.txt')
