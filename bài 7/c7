@@ -1,0 +1,8 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+with open('D:/a.txt', 'r') as file:
+line_count = 0
+for line in file:
+line_count += 1
+ print (f'so dong (line_count)')
