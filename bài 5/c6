@@ -1,0 +1,14 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+def sort_list(arr):
+
+return sorted(arr)
+
+def find max(arr):
+
+return max(arr)
+
+def find min(arr):
+
+return min(arr)
