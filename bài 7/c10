@@ -1,0 +1,9 @@
+def find longest words (text): 
+words text.split()
+max len = max (len (word) for word in words)
+longest_words [word for word in words if len (word) == max_len]
+
+return longest_words
+text = """Học lập trình khó quá ."""
+longest_words=find_longest_words(text) 
+print(" các từ dài nhất là:", longest_words)
