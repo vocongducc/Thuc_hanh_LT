@@ -1,0 +1,14 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+class Hinhchunhat:
+    def __init__(self, chieu_dai, chieu_rong):
+        self.chieu_dai = chieu_dai
+        self.chieu_rong = chieu_rong
+    
+    def dientich(self):
+        return self.chieu_dai * self.chieu_rong
+
+hinhchunhat = Hinhchunhat(5, 3)
+
+print("Diện tích của hình chữ nhật là:", hinhchunhat.dientich())
