@@ -1,0 +1,20 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+class Nguoi(object):
+    def getGender(self):
+        return "Unknown"
+
+class Nam(Nguoi):
+    def getGender(self):
+        return "Nam"
+
+class Nu(Nguoi):
+    def getGender(self):
+        return "Nữ"
+
+aNam = Nam()
+aNu = Nu()
+
+print(aNam.getGender())  # Kết quả sẽ là "Nam"
+print(aNu.getGender())   # Kết quả sẽ là "Nữ"
