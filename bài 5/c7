@@ -1,0 +1,34 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+import numpy as np
+
+# Định nghĩa kiểu dữ liệu cho mảng có cấu trúc dtype [('name', 'U20'), ('height', 'f4'), ('class', 'U10')]
+
+# Dữ liệu của các sinh viên
+
+student details = [
+
+('Alice', 1.65, 5),
+
+('Bob', 1.72, 4),
+
+('Charlie', 1.80, 6),
+
+('David', 1.60, 5),
+
+('Eve', 1.75, 5)
+
+# Tạo mảng có cấu trúc
+
+students np.array (students_details, dtype data_type)
+
+print ("Mảng bản đầu:")
+
+print (students)
+
+print ('Sort by height')
+
+sorted_students np.sort(students, order='height')
+
+print (sorted_students)
