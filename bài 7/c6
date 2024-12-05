@@ -1,0 +1,21 @@
+print("sinh vien VO CONG DUC")
+print("Ma so sinh vien:235752021610102")
+
+from collections import deque
+
+def read_last_n_lines(file_path, n):
+    try:
+       
+        with open(file_path, 'r') as file:
+            last_n_lines = deque(file, maxlen=n)
+        
+        for line in last_n_lines:
+            print(line.strip())
+    
+    except FileNotFoundError:
+        print(f"Không tìm thấy tệp: {file_path}")
+
+file_path = input("Nhập đường dẫn tới tệp: ")
+num_lines = int(input("Nhập số dòng cuối cần đọc: "))
+
+read_last_n_lines(file_path, num_lines)
