@@ -1,9 +1,6 @@
 print("sinh vien: Vo Cong Duc")
 print("MSSV:235752021610102")
 
-print("sinh vien: Vo Cong Duc")
-print("MSSV:235752021610102")
-
 from tkinter import * 
 def NewFile(): 
     print("New File!") 
