@@ -21,4 +21,4 @@ if re.search("\s", p): continue
 
 value.append (p)
 
-print(",".join(value))​13:31/-strong/-heart:>:o:-((:-hĐã gửi Xem trước khi gửiThả Files vào đây để xem lại trước khi gửi
+print(",".join(value))​
