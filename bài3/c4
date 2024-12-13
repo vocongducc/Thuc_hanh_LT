@@ -3,7 +3,7 @@ print("Ma so sinh vien: 235752021610102")
 
 a = "Hello Guy!"
 def say(a):
-a = "Vinh University"
+    a = "Vinh University"
 print(a)
 say (a)
 print(a)
